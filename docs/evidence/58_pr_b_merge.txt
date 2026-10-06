@@ -1,0 +1,7 @@
+Дата UTC: 2026-10-06T16:05:37.672506+00:00
+Каталог: /workspace/lab2-diachenko
+$ gh pr merge 4 --repo diachenko668/lab2-diachenko --merge
+X Pull request diachenko668/lab2-diachenko#4 is not mergeable: the merge commit cannot be cleanly created.
+To have the pull request merged after all the requirements have been met, add the `--auto` flag.
+
+Код завершения: 1

@@ -1,0 +1,6 @@
+Дата UTC: 2026-10-06T16:08:45.546769+00:00
+Каталог: /workspace/lab2-diachenko
+$ gh issue close 1 --repo diachenko668/lab2-diachenko --comment 'Диаграмма добавлена в docs/git-workflow.png и docs/git-workflow.svg. Задача по диаграмме выполнена. Создание GitHub Project и перемещение карточки в Done остаются отдельным невыполненным пунктом лабораторной: текущая интеграция не имеет права createProjectV2.'
+✓ Closed issue diachenko668/lab2-diachenko#1 (Добавить диаграмму в отчёт)
+
+Код завершения: 0

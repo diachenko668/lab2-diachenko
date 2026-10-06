@@ -1,0 +1,19 @@
+Дата UTC: 2026-10-06T16:03:03.161175+00:00
+Каталог: /workspace/lab2-diachenko
+$ python3 -m unittest discover -s tests -v
+test_cli_invalid (test_main.StatsTests.test_cli_invalid) ... ok
+test_cli_valid (test_main.StatsTests.test_cli_valid) ... ok
+test_empty_input (test_main.StatsTests.test_empty_input) ... ok
+test_fractional_numbers (test_main.StatsTests.test_fractional_numbers) ... ok
+test_negative_numbers (test_main.StatsTests.test_negative_numbers) ... ok
+test_nonfinite_input (test_main.StatsTests.test_nonfinite_input) ... ok
+test_overflowing_total (test_main.StatsTests.test_overflowing_total) ... ok
+test_positive_numbers (test_main.StatsTests.test_positive_numbers) ... ok
+test_single_number (test_main.StatsTests.test_single_number) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.125s
+
+OK
+
+Код завершения: 0

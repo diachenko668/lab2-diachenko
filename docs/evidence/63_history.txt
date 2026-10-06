@@ -1,0 +1,36 @@
+Дата UTC: 2026-10-06T16:08:41.879639+00:00
+Каталог: /workspace/lab2-diachenko
+$ git log --graph --oneline --decorate -18
+* 63b644a (HEAD -> main, origin/main, origin/HEAD) Добавлена диаграмма ветвления и инструкция для Projects
+*   2005378 Merge pull request #4 from diachenko668/feature/author-b
+|\  
+| *   3ea489d (origin/feature/author-b) Синхронизация роли B с main после слияния PR A
+| |\  
+| |/  
+|/|   
+* |   8600bbd Merge pull request #3 from diachenko668/feature/author-a
+|\ \  
+* \ \   6230e09 Merge pull request #2 from diachenko668/feature/update
+|\ \ \  
+| | | *   92712c2 Разрешён конфликт shared.txt: объединены требования ролей A и B
+| | | |\  
+| | | | *   6df654b Локальное слияние изменений роли A
+| | | | |\  
+| | | |_|/  
+| | |/| |   
+| | * | | d28190c (origin/feature/author-a) Роль A: изменена общая строка shared.txt
+| |/ / /  
+|/| | |   
+| | | * 8231971 Локальная проверка слияния feature/update
+| |_|/| 
+|/| |/  
+| |/|   
+| * | 2a67f2f (origin/feature/update, feature/update) Исправлены замечания самопроверки: пустые и неконечные числа
+| * | 1df89a1 Дополнен отчёт тремя пунктами и тестами граничных случаев
+|/ /  
+| * c4cf80b Роль B: изменена общая строка shared.txt
+|/  
+* 5024689 Добавлены отчёт, анализатор чисел и тесты
+* 64672ba (work) Initial commit
+
+Код завершения: 0
