@@ -28,6 +28,10 @@ class StatsTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "конечными"):
                     calculate_stats([number])
 
+    def test_overflowing_total(self):
+        with self.assertRaisesRegex(ValueError, "Сумма"):
+            calculate_stats([1e308, 1e308])
+
     def test_fractional_numbers(self):
         self.assertAlmostEqual(calculate_stats([0.1, 0.2])["average"], 0.15)
 
