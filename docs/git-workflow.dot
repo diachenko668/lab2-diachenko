@@ -1,0 +1,21 @@
+digraph GitWorkflow {
+ graph [rankdir=LR, bgcolor="white", pad="0.3", nodesep="0.4", ranksep="0.6"];
+ node [shape=box, style="rounded,filled", fillcolor="#edf3ff", color="#315b9a", fontname="DejaVu Sans", fontsize=11];
+ edge [color="#52647d", fontname="DejaVu Sans", fontsize=10];
+ base [label="main\nИсходный проект"];
+ update [label="feature/update\n3 пункта + тесты"];
+ fix [label="Самопроверка\nИсправление ошибок"];
+ pr2 [label="PR #2 → main\nСлияние"];
+ a [label="Роль A\nПроверка чисел"];
+ b [label="Роль B\nРасчёт статистики"];
+ pr3 [label="PR #3 → main\nИзменение A"];
+ conflict [label="PR #4: конфликт\nshared.txt",fillcolor="#ffe4d9",color="#b7542e"];
+ resolve [label="Разрешение\nПроверка + расчёт"];
+ merged [label="PR #4 → main\nОба изменения сохранены",fillcolor="#e3f4e6",color="#368147"];
+ base -> update -> fix -> pr2;
+ base -> a -> pr3;
+ base -> b -> conflict;
+ pr2 -> pr3;
+ pr3 -> conflict;
+ conflict -> resolve -> merged;
+}
